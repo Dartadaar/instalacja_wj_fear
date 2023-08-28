@@ -2,8 +2,8 @@
 	"name" : "instalacja_wj",
 	"version" : 1,
 	"creationdate" : 3775897990,
-	"modificationdate" : 3776013948,
-	"viewrect" : [ 25.0, 109.0, 807.0, 472.0 ],
+	"modificationdate" : 3776058311,
+	"viewrect" : [ 0.0, 181.0, 807.0, 472.0 ],
 	"autoorganize" : 1,
 	"hideprojectwindow" : 0,
 	"showdependencies" : 1,
@@ -23,12 +23,12 @@
 				"local" : 1
 			}
 ,
-			"DPA - Binaural Rain.wav" : 			{
+			"1.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}
 ,
-			"improlastrender.wav" : 			{
+			"2.wav" : 			{
 				"kind" : "audiofile",
 				"local" : 1
 			}

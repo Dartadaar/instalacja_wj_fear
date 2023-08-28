@@ -40,14 +40,129 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
+					"basictuning" : 440,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "Macintosh HD:/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Max/Projects/instalacja_wj/media/3.wav",
+								"filename" : "3.wav",
+								"filekind" : "audiofile",
+								"id" : "u611001731",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-17",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 945.0, 409.0, 150.0, 30.0 ],
+					"pitchcorrection" : 0,
+					"presentation" : 1,
+					"presentation_rect" : [ 351.0, 210.0, 150.0, 30.0 ],
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"basictuning" : 440,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "Macintosh HD:/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Max/Projects/instalacja_wj/media/2.wav",
+								"filename" : "2.wav",
+								"filekind" : "audiofile",
+								"id" : "u663001639",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-15",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 782.0, 409.0, 150.0, 30.0 ],
+					"pitchcorrection" : 0,
+					"presentation" : 1,
+					"presentation_rect" : [ 188.0, 210.0, 150.0, 30.0 ],
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"basictuning" : 440,
+					"data" : 					{
+						"clips" : [ 							{
+								"absolutepath" : "Macintosh HD:/Applications/Ableton Live 11 Suite.app/Contents/App-Resources/Max/Projects/instalacja_wj/media/1.wav",
+								"filename" : "1.wav",
+								"filekind" : "audiofile",
+								"id" : "u469001349",
+								"loop" : 0,
+								"content_state" : 								{
+
+								}
+
+							}
+ ]
+					}
+,
+					"followglobaltempo" : 0,
+					"formantcorrection" : 0,
+					"id" : "obj-8",
+					"maxclass" : "playlist~",
+					"mode" : "basic",
+					"numinlets" : 1,
+					"numoutlets" : 5,
+					"originallength" : [ 0.0, "ticks" ],
+					"originaltempo" : 120.0,
+					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 610.0, 409.0, 150.0, 30.0 ],
+					"pitchcorrection" : 0,
+					"presentation" : 1,
+					"presentation_rect" : [ 16.0, 210.0, 150.0, 30.0 ],
+					"quality" : "basic",
+					"timestretch" : [ 0 ]
+				}
+
+			}
+, 			{
+				"box" : 				{
 					"id" : "obj-12",
+					"linecount" : 3,
 					"maxclass" : "comment",
 					"numinlets" : 1,
 					"numoutlets" : 0,
-					"patching_rect" : [ 159.0, 227.5, 150.0, 20.0 ],
+					"patching_rect" : [ 159.0, 227.5, 150.0, 47.0 ],
 					"presentation" : 1,
-					"presentation_rect" : [ 727.0, 129.5, 61.0, 20.0 ],
-					"text" : "sensitivity"
+					"presentation_rect" : [ 727.0, 129.5, 313.0, 20.0 ],
+					"text" : "sensitivity (na razie 300 jest spoko, ale jest do kalibracji)"
 				}
 
 			}
@@ -314,114 +429,6 @@
 			}
 , 			{
 				"box" : 				{
-					"basictuning" : 440,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "improlastrender.wav",
-								"filename" : "improlastrender.wav",
-								"filekind" : "audiofile",
-								"id" : "u086010752",
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
- ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-47",
-					"maxclass" : "playlist~",
-					"mode" : "basic",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0.0, "ticks" ],
-					"originaltempo" : 120.0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 945.0, 409.0, 150.0, 30.0 ],
-					"pitchcorrection" : 0,
-					"quality" : "basic",
-					"timestretch" : [ 0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"basictuning" : 440,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "3.wav",
-								"filename" : "3.wav",
-								"filekind" : "audiofile",
-								"id" : "u163010746",
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
- ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-45",
-					"maxclass" : "playlist~",
-					"mode" : "basic",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0.0, "ticks" ],
-					"originaltempo" : 120.0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 782.0, 409.0, 150.0, 30.0 ],
-					"pitchcorrection" : 0,
-					"quality" : "basic",
-					"timestretch" : [ 0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
-					"basictuning" : 440,
-					"data" : 					{
-						"clips" : [ 							{
-								"absolutepath" : "DPA - Binaural Rain.wav",
-								"filename" : "DPA - Binaural Rain.wav",
-								"filekind" : "audiofile",
-								"id" : "u870010736",
-								"loop" : 1,
-								"content_state" : 								{
-									"loop" : 1
-								}
-
-							}
- ]
-					}
-,
-					"followglobaltempo" : 0,
-					"formantcorrection" : 0,
-					"id" : "obj-43",
-					"maxclass" : "playlist~",
-					"mode" : "basic",
-					"numinlets" : 1,
-					"numoutlets" : 5,
-					"originallength" : [ 0.0, "ticks" ],
-					"originaltempo" : 120.0,
-					"outlettype" : [ "signal", "signal", "signal", "", "dictionary" ],
-					"parameter_enable" : 0,
-					"patching_rect" : [ 610.0, 409.0, 150.0, 30.0 ],
-					"pitchcorrection" : 0,
-					"quality" : "basic",
-					"timestretch" : [ 0 ]
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"id" : "obj-37",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
@@ -519,8 +526,8 @@
 					"numinlets" : 2,
 					"numoutlets" : 1,
 					"outlettype" : [ "bang" ],
-					"patching_rect" : [ 320.0, 167.5, 63.0, 22.0 ],
-					"text" : "metro 500"
+					"patching_rect" : [ 320.0, 167.5, 39.0, 22.0 ],
+					"text" : "metro"
 				}
 
 			}
@@ -549,7 +556,7 @@
 , 			{
 				"patchline" : 				{
 					"destination" : [ "obj-25", 2 ],
-					"midpoints" : [ 28.5, 189.0 ],
+					"midpoints" : [ 27.5, 189.0 ],
 					"order" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
@@ -618,6 +625,20 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-58", 1 ],
+					"source" : [ "obj-15", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-58", 0 ],
+					"source" : [ "obj-15", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-145", 0 ],
 					"order" : 2,
 					"source" : [ "obj-150", 0 ]
@@ -637,6 +658,20 @@
 					"destination" : [ "obj-147", 0 ],
 					"order" : 0,
 					"source" : [ "obj-150", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 1 ],
+					"source" : [ "obj-17", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-59", 0 ],
+					"source" : [ "obj-17", 0 ]
 				}
 
 			}
@@ -695,48 +730,6 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-52", 1 ],
-					"source" : [ "obj-43", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-52", 0 ],
-					"source" : [ "obj-43", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-58", 1 ],
-					"source" : [ "obj-45", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-58", 0 ],
-					"source" : [ "obj-45", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-59", 1 ],
-					"source" : [ "obj-47", 1 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-59", 0 ],
-					"source" : [ "obj-47", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
 					"destination" : [ "obj-138", 1 ],
 					"midpoints" : [ 619.5, 510.0, 695.833333333333258, 510.0 ],
 					"source" : [ "obj-52", 0 ]
@@ -745,16 +738,7 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-43", 0 ],
-					"midpoints" : [ 619.5, 387.0, 619.5, 387.0 ],
-					"order" : 2,
-					"source" : [ "obj-54", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-45", 0 ],
+					"destination" : [ "obj-15", 0 ],
 					"midpoints" : [ 619.5, 396.0, 791.5, 396.0 ],
 					"order" : 1,
 					"source" : [ "obj-54", 0 ]
@@ -763,9 +747,17 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-47", 0 ],
+					"destination" : [ "obj-17", 0 ],
 					"midpoints" : [ 619.5, 396.0, 954.5, 396.0 ],
 					"order" : 0,
+					"source" : [ "obj-54", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-8", 0 ],
+					"order" : 2,
 					"source" : [ "obj-54", 0 ]
 				}
 
@@ -804,31 +796,45 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-52", 1 ],
+					"source" : [ "obj-8", 1 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-52", 0 ],
+					"source" : [ "obj-8", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-7", 1 ],
-					"midpoints" : [ 464.5, 147.0, 373.5, 147.0 ],
+					"midpoints" : [ 464.5, 147.0, 349.5, 147.0 ],
 					"source" : [ "obj-9", 0 ]
 				}
 
 			}
  ],
 		"dependency_cache" : [ 			{
+				"name" : "1.wav",
+				"bootpath" : "./Ableton Live 11 Suite.app/Contents/App-Resources/Max/Projects/instalacja_wj/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "2.wav",
+				"bootpath" : "./Ableton Live 11 Suite.app/Contents/App-Resources/Max/Projects/instalacja_wj/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
 				"name" : "3.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../../../../Users/dartadaar/Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "DPA - Binaural Rain.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../../../../Users/dartadaar/Downloads",
-				"type" : "WAVE",
-				"implicit" : 1
-			}
-, 			{
-				"name" : "improlastrender.wav",
-				"bootpath" : "~/Downloads",
-				"patcherrelativepath" : "../../../../../../../../Users/dartadaar/Downloads",
+				"bootpath" : "./Ableton Live 11 Suite.app/Contents/App-Resources/Max/Projects/instalacja_wj/media",
+				"patcherrelativepath" : "../media",
 				"type" : "WAVE",
 				"implicit" : 1
 			}
