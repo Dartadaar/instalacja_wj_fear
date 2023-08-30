@@ -10,7 +10,7 @@
 		}
 ,
 		"classnamespace" : "box",
-		"rect" : [ 0.0, 0.0, 640.0, 480.0 ],
+		"rect" : [ 59.0, 81.0, 1046.0, 632.0 ],
 		"bglocked" : 0,
 		"openinpresentation" : 0,
 		"default_fontsize" : 12.0,
@@ -40,61 +40,167 @@
 		"assistshowspatchername" : 0,
 		"boxes" : [ 			{
 				"box" : 				{
-					"id" : "obj-39",
+					"id" : "obj-122",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 139.0, 693.5, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 257.0, 309.0, 160.0, 20.0 ],
+					"text" : "<- smoothed arduino input"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-121",
+					"maxclass" : "comment",
+					"numinlets" : 1,
+					"numoutlets" : 0,
+					"patching_rect" : [ 124.0, 678.5, 150.0, 20.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 257.0, 240.0, 105.0, 20.0 ],
+					"text" : "<- arduino input"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-120",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 224.0, 178.0, 83.0, 22.0 ],
+					"text" : "loadmess 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-119",
 					"maxclass" : "number",
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "", "bang" ],
 					"parameter_enable" : 0,
-					"patching_rect" : [ 13.0, 339.0, 50.0, 22.0 ]
+					"patching_rect" : [ 224.0, 215.0, 50.0, 22.0 ]
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-34",
+					"id" : "obj-112",
 					"maxclass" : "newobj",
 					"numinlets" : 1,
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
-					"patching_rect" : [ 13.0, 304.0, 71.0, 22.0 ],
-					"text" : "fromsymbol"
+					"patching_rect" : [ 13.0, 462.0, 126.0, 22.0 ],
+					"text" : "if $i1 > 0 then 1 else 0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-32",
-					"maxclass" : "newobj",
-					"numinlets" : 3,
+					"id" : "obj-111",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 265.5, 309.0, 231.0, 58.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 14.0, 271.0, 231.0, 58.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
+					"setstyle" : 5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-110",
+					"maxclass" : "message",
+					"numinlets" : 2,
 					"numoutlets" : 1,
-					"outlettype" : [ "int" ],
-					"patching_rect" : [ 13.0, 272.0, 40.0, 22.0 ],
-					"text" : "itoa"
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 69.0, 241.0, 29.5, 22.0 ],
+					"text" : "0"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-31",
+					"id" : "obj-109",
 					"maxclass" : "newobj",
 					"numinlets" : 2,
 					"numoutlets" : 2,
-					"outlettype" : [ "", "" ],
-					"patching_rect" : [ 13.0, 235.0, 75.0, 22.0 ],
-					"text" : "zl group 100"
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 69.0, 206.0, 41.0, 22.0 ],
+					"text" : "sel 48"
 				}
 
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-28",
+					"id" : "obj-106",
+					"maxclass" : "multislider",
+					"numinlets" : 1,
+					"numoutlets" : 2,
+					"outlettype" : [ "", "" ],
+					"parameter_enable" : 0,
+					"patching_rect" : [ 18.5, 309.0, 232.0, 58.0 ],
+					"presentation" : 1,
+					"presentation_rect" : [ 14.0, 202.0, 232.0, 58.0 ],
+					"setminmax" : [ 0.0, 1.0 ],
+					"setstyle" : 5
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-104",
+					"maxclass" : "message",
+					"numinlets" : 2,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 13.0, 241.0, 29.5, 22.0 ],
+					"text" : "100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-99",
 					"maxclass" : "newobj",
 					"numinlets" : 3,
-					"numoutlets" : 3,
-					"outlettype" : [ "bang", "bang", "" ],
-					"patching_rect" : [ 13.0, 194.0, 57.0, 22.0 ],
-					"text" : "sel 13 10"
+					"numoutlets" : 1,
+					"outlettype" : [ "float" ],
+					"patching_rect" : [ 181.5, 273.0, 67.0, 22.0 ],
+					"text" : "slide 1 100"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-93",
+					"maxclass" : "newobj",
+					"numinlets" : 1,
+					"numoutlets" : 1,
+					"outlettype" : [ "" ],
+					"patching_rect" : [ 424.0, 525.0, 83.0, 22.0 ],
+					"text" : "loadmess 300"
+				}
+
+			}
+, 			{
+				"box" : 				{
+					"id" : "obj-29",
+					"maxclass" : "newobj",
+					"numinlets" : 2,
+					"numoutlets" : 2,
+					"outlettype" : [ "bang", "" ],
+					"patching_rect" : [ 13.0, 206.0, 41.0, 22.0 ],
+					"text" : "sel 49"
 				}
 
 			}
@@ -105,7 +211,7 @@
 					"numinlets" : 1,
 					"numoutlets" : 2,
 					"outlettype" : [ "int", "" ],
-					"patching_rect" : [ 13.0, 152.0, 77.0, 22.0 ],
+					"patching_rect" : [ 13.0, 160.0, 77.0, 22.0 ],
 					"text" : "serial z 9600"
 				}
 
@@ -130,7 +236,7 @@
 					"numoutlets" : 1,
 					"outlettype" : [ "" ],
 					"patching_rect" : [ 205.0, 114.0, 39.0, 22.0 ],
-					"text" : "port b"
+					"text" : "port d"
 				}
 
 			}
@@ -184,18 +290,6 @@
 			}
 , 			{
 				"box" : 				{
-					"id" : "obj-13",
-					"linecount" : 2,
-					"maxclass" : "comment",
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 9.0, 224.0, 33.0 ],
-					"text" : "arduino setup port do ustalenia kod do arduino WIP"
-				}
-
-			}
-, 			{
-				"box" : 				{
 					"basictuning" : 440,
 					"data" : 					{
 						"clips" : [ 							{
@@ -226,7 +320,7 @@
 					"patching_rect" : [ 940.0, 890.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 351.0, 210.0, 150.0, 30.0 ],
+					"presentation_rect" : [ 352.0, 580.0, 150.0, 30.0 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -264,7 +358,7 @@
 					"patching_rect" : [ 777.0, 890.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 188.0, 210.0, 150.0, 30.0 ],
+					"presentation_rect" : [ 189.0, 580.0, 150.0, 30.0 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -302,7 +396,7 @@
 					"patching_rect" : [ 605.0, 890.0, 150.0, 30.0 ],
 					"pitchcorrection" : 0,
 					"presentation" : 1,
-					"presentation_rect" : [ 16.0, 210.0, 150.0, 30.0 ],
+					"presentation_rect" : [ 17.0, 580.0, 150.0, 30.0 ],
 					"quality" : "basic",
 					"timestretch" : [ 0 ]
 				}
@@ -700,21 +794,6 @@
 				}
 
 			}
-, 			{
-				"box" : 				{
-					"angle" : 270.0,
-					"bgcolor" : [ 0.666666666666667, 0.666666666666667, 0.666666666666667, 1.0 ],
-					"bordercolor" : [ 0.0, 0.0, 0.0, 1.0 ],
-					"id" : "obj-47",
-					"maxclass" : "panel",
-					"mode" : 0,
-					"numinlets" : 1,
-					"numoutlets" : 0,
-					"patching_rect" : [ 13.0, 9.0, 276.0, 368.0 ],
-					"proportion" : 0.5
-				}
-
-			}
  ],
 		"lines" : [ 			{
 				"patchline" : 				{
@@ -726,8 +805,31 @@
 			}
 , 			{
 				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"order" : 1,
+					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"order" : 0,
+					"source" : [ "obj-104", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-110", 0 ],
+					"source" : [ "obj-109", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
 					"destination" : [ "obj-25", 2 ],
-					"midpoints" : [ 22.5, 670.0 ],
+					"midpoints" : [ 22.5, 633.0, 444.0, 633.0, 444.0, 645.0, 681.5, 645.0 ],
 					"order" : 0,
 					"source" : [ "obj-11", 0 ]
 				}
@@ -739,6 +841,43 @@
 					"midpoints" : [ 22.5, 730.0, 144.5, 730.0 ],
 					"order" : 1,
 					"source" : [ "obj-11", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-106", 0 ],
+					"order" : 1,
+					"source" : [ "obj-110", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 0 ],
+					"order" : 0,
+					"source" : [ "obj-110", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-11", 0 ],
+					"source" : [ "obj-112", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-99", 2 ],
+					"source" : [ "obj-119", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-119", 0 ],
+					"source" : [ "obj-120", 0 ]
 				}
 
 			}
@@ -933,29 +1072,32 @@
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-28", 0 ],
+					"destination" : [ "obj-109", 0 ],
+					"order" : 0,
 					"source" : [ "obj-27", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-31", 0 ],
-					"source" : [ "obj-28", 0 ]
+					"destination" : [ "obj-29", 0 ],
+					"order" : 1,
+					"source" : [ "obj-27", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-32", 0 ],
-					"source" : [ "obj-31", 0 ]
+					"destination" : [ "obj-104", 0 ],
+					"source" : [ "obj-29", 0 ]
 				}
 
 			}
 , 			{
 				"patchline" : 				{
-					"destination" : [ "obj-34", 0 ],
-					"source" : [ "obj-32", 0 ]
+					"destination" : [ "obj-18", 0 ],
+					"order" : 2,
+					"source" : [ "obj-33", 0 ]
 				}
 
 			}
@@ -973,13 +1115,6 @@
 					"destination" : [ "obj-7", 0 ],
 					"order" : 1,
 					"source" : [ "obj-33", 0 ]
-				}
-
-			}
-, 			{
-				"patchline" : 				{
-					"destination" : [ "obj-39", 0 ],
-					"source" : [ "obj-34", 0 ]
 				}
 
 			}
@@ -1086,8 +1221,52 @@
 				}
 
 			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-9", 0 ],
+					"source" : [ "obj-93", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-111", 0 ],
+					"order" : 0,
+					"source" : [ "obj-99", 0 ]
+				}
+
+			}
+, 			{
+				"patchline" : 				{
+					"destination" : [ "obj-112", 0 ],
+					"order" : 1,
+					"source" : [ "obj-99", 0 ]
+				}
+
+			}
  ],
-		"dependency_cache" : [  ],
+		"dependency_cache" : [ 			{
+				"name" : "1.wav",
+				"bootpath" : "~/GitHub/instalacja_wj_fear/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "2.wav",
+				"bootpath" : "~/GitHub/instalacja_wj_fear/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+, 			{
+				"name" : "3.wav",
+				"bootpath" : "~/GitHub/instalacja_wj_fear/media",
+				"patcherrelativepath" : "../media",
+				"type" : "WAVE",
+				"implicit" : 1
+			}
+ ],
 		"autosave" : 0
 	}
 
