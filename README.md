@@ -17,3 +17,8 @@ WJ project MAX/MSP project
 
 - Pozycjonowanie głowy + ambisoniczny dźwięk
 
+## Kod do Arduino IDE
+
+```
+k o d
+```
