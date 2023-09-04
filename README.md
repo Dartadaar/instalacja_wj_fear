@@ -13,9 +13,9 @@ WJ project MAX/MSP project
 
 - Wstępna kalibracja
 
-- Interfejs do uruchamiania
+- ~~Interfejs do uruchamiania~~
 
-- Muzyka
+- ~~Muzyka~~
 
 - GOGLE VR - ~~model +~~ wysyłanie dźwięku na gogle
 
