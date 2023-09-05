@@ -3,7 +3,23 @@
 
 WJ project MAX/MSP project
 
+# INSTRUKCJA
 
+- Pliki audio pobierasz z ***tutaj będzie link*** i wrzucasz do folderu media
+
+- Odpalasz projekt w presentation mode
+
+- Podłączasz arduino (włączanie arduino IDE już nawet nie jest potrzebne, kod jest już wgrany bezpośrednio na płytkę z tego co rozumiem)
+
+- Odpalasz maxową konsolę
+
+- Klikasz "view avalible devices" w projekcie
+
+- Paytzysz gdzie jest arduino i wybierasz literkę
+
+- Klikasz inicjalizację i tyle, powinno działać
+
+- Ustawienie arudino smoothera zależą od konkretnej pozycji czujnika, a więc też są do sprawdzenia
 
 ## Roadmap
 
